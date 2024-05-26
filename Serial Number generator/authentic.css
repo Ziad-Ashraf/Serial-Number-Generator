@@ -1,0 +1,41 @@
+:root {
+    --border-raduis : 4px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, Arial;
+}
+
+.serial {
+    width:fit-content;
+    background-color: #eee;
+    padding: 20px;
+    margin: 20px auto 0;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: var(--border-raduis);
+    height: 66.5px;
+
+}
+
+.generate {
+    background-color: #f44336 ;
+    display: block;
+    margin: 20px auto;
+    width: fit-content;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: var(--border-raduis);
+    cursor: pointer;
+    user-select: none;
+}
+
+.generate:hover {
+    background-color: #e83123;
+}
